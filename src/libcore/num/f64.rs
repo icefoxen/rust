@@ -100,6 +100,9 @@ pub mod consts {
     #[stable(feature = "rust1", since = "1.0.0")]
     pub const FRAC_2_PI: f64 = 0.636619772367581343075535053490057448_f64;
 
+    /// 2π, the ratio of a circle's circumference to its radius.
+    pub const TAU: f64 = 6.28318530717958647692528676655900577_f64;
+
     /// 2/sqrt(π)
     #[stable(feature = "rust1", since = "1.0.0")]
     pub const FRAC_2_SQRT_PI: f64 = 1.12837916709551257389615890312154517_f64;

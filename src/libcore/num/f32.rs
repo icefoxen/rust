@@ -104,6 +104,9 @@ pub mod consts {
     #[stable(feature = "rust1", since = "1.0.0")]
     pub const FRAC_2_SQRT_PI: f32 = 1.12837916709551257389615890312154517_f32;
 
+    /// 2π, the ratio of a circle's circumference to its radius.
+    pub const TAU: f32 = 6.28318530717958647692528676655900577_f32;
+
     /// sqrt(2)
     #[stable(feature = "rust1", since = "1.0.0")]
     pub const SQRT_2: f32 = 1.41421356237309504880168872420969808_f32;
